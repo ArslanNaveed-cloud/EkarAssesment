@@ -1,0 +1,38 @@
+package cx.example.ekartest.model
+
+// This data class represents attributes of a vehicle
+data class AttributesData(
+    val year: String,
+    val make: String,
+    val model: String,
+    val trim: String,
+    val style: String,
+    val type: String,
+    val size: String,
+    val category: String,
+    val made_in: String,
+    val made_in_city: String,
+    val doors: String,
+    val fuel_type: String,
+    val fuel_capacity: String,
+    val city_mileage: String,
+    val highway_mileage: String,
+    val engine: String,
+    val engine_size: String,
+    val engine_cylinders: String,
+    val transmission: String,
+    val transmission_short: String,
+    val transmission_type: String,
+    val transmission_speeds: String,
+    val anti_brake_system: String,
+    val steering_type: String,
+    val overall_height: String,
+    val overall_length: String,
+    val overall_width: String,
+    val standard_seating: String,
+    val invoice_price: String,
+    val delivery_charges: String,
+    val manufacturer_suggested_retail_price: String,
+    val tires: String,
+
+)
