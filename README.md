@@ -31,6 +31,7 @@ There are a total of 7 packages in the project
 - **api**: this package has the basic setup of retrofit apis that are used for getting vehicle data
 - **callback**: this package has the classes for handling different usecases i.e success/failed etc
 - **model**: this package has data classes for containing the data accessed from the apis
+-  **networkbroadcast**: this package checks for the active internet connection and if the user has turned on the data/wifi
 - **repository**: this package handles all the background tasks i.e **(calling apis, getting data to their respective data classes)**
 - **theme**: this package has the basic information about the application colors and main theme of the application
 - **ui**: This package has sub packages
